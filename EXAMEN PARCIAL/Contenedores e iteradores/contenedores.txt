@@ -1,0 +1,15 @@
+CONTENEDOR: objeto que guarda una coleccion de otros objetos
+estan implementados como templates, lo que les da gran flexibilidad en los tipos que soportan
+dan acceso a sus datos ya sea por acceso directo a traves de iteradores 
+iteradores: objetos con propiedades similares a los apuntadores
+Implementan estructuras muy usadas: arreglos dinamicos (vector), colas (queque), pilas(stack),
+listas ligadas (list), arboles (set), arreglos asociativos (map).
+Pueden compartir funcionalidad, la decision de cual usar depende de sue eficiencia en cada contenedor
+- Contenedores secuenciales:vectos, deque list.
+- Adaptadores de contenedor: stack, queue.
+- Contenedores asociativos:set, multiset, map multimap.
+ITERADORES: permitiendo recorrer como un apuntador los datos con los operator ++, ==, != y los 
+iteradores predefinidos begin() y end ().
+tipo de arbol
+swap normal y swap list
+REPASAR ARRAYS DINAMICOS.. NO ENTIENDO
